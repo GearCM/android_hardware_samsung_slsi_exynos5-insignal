@@ -19,7 +19,7 @@ else
 	LOCAL_C_INCLUDES += $(TOP)/frameworks/native/include/media/openmax
 endif
 	
-LOCAL_C_INCLUDES :+ \
+LOCAL_C_INCLUDES += \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
 	$(LOCAL_PATH)/../include \
 	$(TOP)/hardware/samsung_slsi/exynos/include
